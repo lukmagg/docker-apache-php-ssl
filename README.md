@@ -10,5 +10,5 @@ To create the image go inside the folder and write the following:
 
 To create a container with this image:
 
-	docker run -dti apache-php-ssl
+	docker run -d -p 443:443 apache-php-ssl
 
