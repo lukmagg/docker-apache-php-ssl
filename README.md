@@ -1,3 +1,7 @@
+To create .key and .crt files, run:
+	openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout docker.key -out docker.crt
+
+
 You need copy docker.key and docker.crt into container
 
 
